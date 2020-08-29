@@ -32,7 +32,7 @@ body{
 	height:3.6rem;
 }
 .navbar{
-	height: 2rem;
+	height: 2.4rem;
 	background-color: #928C8C;
 	position: relative;
 
@@ -43,13 +43,22 @@ body{
     
     list-style:none;
     margin:0;
-    padding:0;
+    padding:0rem;
     text-align:center;
     overflow-x: scroll;
     overflow-y: hidden;
   	white-space: nowrap;
     
 
+
+}
+.navbar__link_container::-webkit-scrollbar {
+    width: 0px;  
+    background-color:#010101; 
+    height: 1rem;
+}
+.navbar__link_container::-webkit-scrollbar-thumb {
+    background: #CE0000;
 
 }
 .navbar__link_list{
