@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+  .list{
+  	width: 100%;
+  	grid-template-columns:auto;
+  	padding: 4rem;
+  	
+  }
+
+}
