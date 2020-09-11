@@ -8,9 +8,14 @@ export const toggleActive=target=>{
 };
 
 const renderList=(data)=>{
+	let img="./img/default.jpg";
+	if(!data.feature_image.includes("None"))
+		img=data.feature_image;
+	
+	
 	const markup=`<div class="card" data-id="${data.id}">
 				<div class="card__image_container">
-				<img src="${data.feature_image}" class="card__image">
+				<img src="${img}" class="card__image">
 				</div>
 				<div class="card__title_container">
 				<h1>${data.title}</h6>

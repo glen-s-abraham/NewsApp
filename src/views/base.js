@@ -2,7 +2,9 @@ export const elements={
 	navBar:document.querySelector('.navbar'),
 	activeNavOnload:document.querySelector('.navbar__link.active'),
 	navLinks:document.querySelectorAll('.navbar__link'),
-	container:document.querySelector('.container')
+	container:document.querySelector('.container'),
+	cardList:document.querySelector('.container.list'),
+	
 };
 
 export const switchView=(name)=>{
